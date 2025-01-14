@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+            <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Carrito</title> 
+<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+<header>    
+        <nav>   
+         <a href="C:\Users\onofr\Documents\TrabajosKarla\Parcial2\PAI2EJOR\carurel.html" class="active">Home</a>
+         <a href="C:\Users\onofr\Documents\TrabajosKarla\Parcial2\PAI2EJOR\Servicios\servicios.html">Services</a>
+         <a href="C:\Users\onofr\Documents\TrabajosKarla\Parcial2\PAI2EJOR\Productos\Productos.HTML">Productos</a>  
+     </nav>
+</header>
+   <main>
+         <section class="product-menu">
+
+              <div class="product-card" data-name="Cable UTP CAT6 Cable de par trenzado sin blindaje, categoría 6, ideal para redes de hasta 1 Gbps." data-price="1175">
+                  <img src="imgPara/cat.png" alt="Producto 1">
+                  <h2>Cable UTP CAT6</h2>
+                  <p class="price">$1,175</p>
+                <button onclick="addToCart(this)">comprar</button>
+                <button onclick="showDetails(this)">ver detalles</button>
+
+             </div>
+             <div class="product-card" data-name="en un entorno de cableado estructurado implica una cuidadosa planificación y ejecución para maximizar tanto el rendimiento como la disponibilidad del almacenamiento. RAID 10 combina las ventajas de espejado y striping, lo que lo hace ideal para aplicaciones críticas. Al seguir estos pasos y considerar las mejores prácticas, puedes asegurarte de que tu instalación de RAID 10 sea efectiva y confiable, proporcionando tanto rendimiento como seguridad para los datos." data-price="1400.00">
+               <img src="imgcaru/6.jpg" alt="Producto 1">
+               <h2>RAID 10</h2>
+               <p class="price">$1,400.00</p>
+                <button onclick="addToCart(this)">comprar</button>
+                <button onclick="showDetails(this)">ver detalles</button>
+             </div>
+             <div class="product-card" data-name="Panel de parcheo con 24 puertos para organizar y gestionar conexiones de red" data-price=" 1500.00.">
+               <img src="imgPara/puertoscat.png" alt="Producto 1">
+               <h2>Patch Panel 24 puertos CAT6</h2>
+               <p class="price"> $1,500.00 MXN.</p>
+                <button onclick="addToCart(this)">comprar</button>
+                <button onclick="showDetails(this)">ver detalles</button>
+             </div>
+    
+             <div class="product-card" data-name=" La instalación de un sistema de cableado estructurado en un edificio de dos pisos con múltiples computadoras requiere una planificación cuidadosa" data-price="9000.00">
+               <img src="imgcaru/9.gif" alt="Producto 1">
+               <h2>Pack 2</h2>
+               <p class="price">$9,000.00</p>
+                <button onclick="addToCart(this)">comprar</button>
+                <button onclick="showDetails(this)">ver detalles</button>
+             </div>
+             <div class="product-card" data-name="La instalación de una red de tipo árbol en un contexto de cableado estructurado implica una planificación cuidadosa, una selección adecuada" data-price="890.00">
+               <img src="imgcaru/7.png" alt="Producto 1">
+               <h2>Red de tipo de arbol</h2>
+               <p class="price">$890.00</p>
+                <button onclick="addToCart(this)">comprar</button>
+                <button onclick="showDetails(this)">ver detalles</button>
+             </div>
+             <div class="product-card" data-name="o en un sistema de cableado estructurado es una opción cada vez más popular debido a sus ventajas en términos de ancho de banda, velocidad y distancia. La fibra óptica puede ser utilizada para conexiones de backbone entre diferentes áreas de un edificio o entre edificios, así como para conexiones de red de alta velocidad a dispositivos finales" data-price="2000.00">
+               <img src="imgcaru/10.jpg" alt="Producto 1">
+               <h2>fibra óptica</h2>
+               <p class="price">$2,000.00</p>
+                <button onclick="addToCart(this)">comprar</button>
+                <button onclick="showDetails(this)">ver detalles</button>
+             </div>
+             <div class="product-card" data-name="Gabinete para montaje de equipos de red y servidores, con capacidad de 42 unidades de rack." data-price="18546.39">
+               <img src="imgPara/gabi.png" alt="Producto 1">
+               <h2>Gabinete Rack de Piso 42U</h2>
+               <p class="price">$1,8546.39</p>
+                <button onclick="addToCart(this)">comprar</button>
+                <button onclick="showDetails(this)">ver detalles</button>
+             </div>
+    
+             <div class="product-card" data-name="incluye varios componentes esenciales para la instalación de redes. Esto puede incluir cables de red (como cables de par trenzado o fibra óptica), conectores, paneles de parcheo, herramientas de instalación y manuales." data-price="900.00">
+               <img src="imgcaru/1.jpg" alt="Producto 1">
+               <h2>Pack 1</h2>
+               <p class="price">$900.00</p>
+                <button onclick="addToCart(this)">comprar</button>
+                <button onclick="showDetails(this)">ver detalles</button>
+             </div>
+             <div class="product-card" data-name="Cable de fibra óptica multimodo con 6 hilos, optimizado para transmisión de alta velocidad." data-price="101.24">
+               <img src="imgPara/fo.png" alt="Producto 1">
+               <h2>Cable de Fibra Óptica 6 hilos OM3</h2>
+               <p class="price">$101.24 MXN por metro. </p>
+                <button onclick="addToCart(this)">comprar</button>
+                <button onclick="showDetails(this)">ver detalles</button>
+             </div>
+    
+             <div class="product-card" data-name="anel utilizado para organizar y conectar cables de fibra óptica. " data-price="2000">
+               <img src="imgPara/puetosfriba.png" alt="Producto 1">
+               <h2>Panel de parcheo de fibra óptica 12 puertos</h2>
+               <p class="price">$2,000 MXN.</p>
+                <button onclick="addToCart(this)">comprar</button>
+                <button onclick="showDetails(this)">ver detalles</button>
+             </div>
+
+    
+         </section>
+         <section class="shopping-cart">
+            <h2>Carrito de compras</h2>
+            <ul id="cart-items"></ul>
+            <p id="total-price">Total: $0.00</p>
+            <button onclick="checkout()">verificar</button>
+         </section>
+ </main>
+    <footer>
+        <p>&copy; 2024 Menu de compra de productos</p>
+    </footer>
+    <script src="js.js"></script>
+</body>
+</html>
