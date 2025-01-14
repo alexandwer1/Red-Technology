@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Servicios</title> 
+<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <nav>   
+            <a href="C:\Users\onofr\Documents\TrabajosKarla\Parcial2\PAI2EJOR\carurel.html" class="active">Home</a>
+            <a href="C:\Users\onofr\Documents\TrabajosKarla\Parcial2\PAI2EJOR\compras\Compras.html">Carrito</a>
+            <a href="C:\Users\onofr\Documents\TrabajosKarla\Parcial2\PAI2EJOR\Productos\Productos.HTML">Productos</a>
+        </nav>
+    </header>
+    <main>
+        <section class="product-menu">
+
+            <div class="product-card" data-name="incluye varios componentes esenciales para la instalación de redes. Esto puede incluir cables de red (como cables de par trenzado o fibra óptica), conectores, paneles de parcheo, herramientas de instalación y manuales." data-price="$900.00">
+                <img src="imgcaru/1.jpg" alt="Producto 1">
+                <h2>Pack 1</h2>
+                <p class="price">$900.00</p>
+                <button onclick="showDetails(this)">ver detalles</button>
+            </div>
+            <div class="product-card" data-name="son un aspecto importante a considerar, ya que influyen en cómo se diseñan y se implementan las infraestructuras de red" data-price="$130.00">
+                <img src="imgcaru/3.jpg" alt="Producto 1">
+                <h2>VLAN</h2>
+                <p class="price">$1300.00</p>
+                <p class="cantidad"></p>
+                <button onclick="showDetails(this)">ver detalles</button>
+            </div>
+            <div class="product-card" data-name="La instalación de redes locales utilizando cableado estructurado y VLANs permite crear una infraestructura de red eficiente, segura y escalable. La planificación adecuada, la instalación meticulosa y la configuración precisa son esenciales para garantizar que la red funcione de manera óptima y satisfaga las necesidades de la organización. Las VLANs, al segmentar el tráfico y mejorar la seguridad, son una herramienta clave en este proceso." data-price="690.00">
+                <img src="imgcaru/2.jpg" alt="Producto 1">
+                <h2>Instalacion de redes locales</h2>
+                <p class="price">$690.00</p>
+                <button onclick="showDetails(this)">ver detalles</button>
+            </div>
+            <div class="product-card" data-name="n un entorno de cableado estructurado implica una cuidadosa planificación y ejecución para garantizar que el almacenamiento y la red funcionen juntos de manera eficiente. La integración adecuada del cableado estructurado con el sistema RAID no solo mejora el rendimiento, sino que también facilita el mantenimiento y la gestión de la infraestructura de red. Al seguir estos pasos y considerar las mejores prácticas, puedes asegurarte de que tu instalación de RAID sea efectiva y confiable. " data-price="$400.00">
+                <img src="imgcaru/4.png" alt="Producto 1">
+                <h2> Raid</h2>
+                <p class="price">$400.00</p>
+                <button onclick="showDetails(this)">ver detalles</button>
+            </div>
+            <div class="product-card" data-name=" en un entorno de cableado estructurado implica una cuidadosa planificación y ejecución para maximizar el rendimiento del almacenamiento. Aunque RAID 0 mejora la velocidad de acceso a los datos, no proporciona redundancia, por lo que es esencial contar con un plan de respaldo adecuado. Al seguir estos pasos y considerar las mejores prácticas, puedes asegurarte " data-price="$300.00">
+                <img src="imgcaru/5.png" alt="Producto 1">
+                <h2>RAID 0</h2>
+                <p class="price">$300.00</p>
+                <button onclick="showDetails(this)">ver detalles</button>
+            </div>
+            <div class="product-card" data-name="en un entorno de cableado estructurado implica una cuidadosa planificación y ejecución para maximizar tanto el rendimiento como la disponibilidad del almacenamiento. RAID 10 combina las ventajas de espejado y striping, lo que lo hace ideal para aplicaciones críticas. Al seguir estos pasos y considerar las mejores prácticas, puedes asegurarte de que tu instalación de RAID 10 sea efectiva y confiable, proporcionando tanto rendimiento como seguridad para los datos." data-price="$100.00">
+                <img src="imgcaru/6.jpg" alt="Producto 1">
+                <h2>RAID 10</h2>
+                <p class="price">$1400.00</p>
+                <button onclick="showDetails(this)">ver detalles</button>
+            </div>
+            <div class="product-card" data-name="La instalación de una red de tipo árbol en un contexto de cableado estructurado implica una planificación cuidadosa, una selección adecuada" data-price="$890.00">
+                <img src="imgcaru/7.png" alt="Producto 1">
+                <h2>Red de tipo de arbol</h2>
+                <p class="price">$890.00</p>
+                <button onclick="showDetails(this)">ver detalles</button>
+            </div>
+            <div class="product-card" data-name="La instalación de un sistema de cableado estructurado en un edificio de dos pisos con múltiples computadoras requiere una planificación cuidadosa" data-price="$9000.00">
+                <img src="imgcaru/8.jpg" alt="Producto 1">
+                <h2>pack2</h2>
+                <p class="price">$9000.00</p>
+                <button onclick="showDetails(this)">ver detalles</button>
+            </div>
+            <div class="product-card" data-name=" La instalación de un sistema de cableado estructurado en un edificio de dos pisos con múltiples computadoras requiere una planificación cuidadosa" data-price="$9000.00">
+                <img src="imgcaru/9.gif" alt="Producto 1">
+                <h2>Pack 2</h2>
+                <p class="price">$9000.00</p>
+                <button onclick="showDetails(this)">ver detalles</button>
+            </div>
+            <div class="product-card" data-name="o en un sistema de cableado estructurado es una opción cada vez más popular debido a sus ventajas en términos de ancho de banda, velocidad y distancia. La fibra óptica puede ser utilizada para conexiones de backbone entre diferentes áreas de un edificio o entre edificios, así como para conexiones de red de alta velocidad a dispositivos finales" data-price="$2000.00">
+                <img src="imgcaru/10.jpg" alt="Producto 1">
+                <h2>fibra óptica</h2>
+                <p class="price">$2000.00</p>
+                <button onclick="showDetails(this)">ver detalles</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 interactive product menu</p>
+    </footer>
+    <script src="js.js"></script>
+</body>
+</html>
